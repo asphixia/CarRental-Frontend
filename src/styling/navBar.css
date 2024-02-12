@@ -1,0 +1,47 @@
+nav {
+   background-color: #000; /* Black background */
+   color: white;
+   padding: 10px 20px; /* Padding around the content */
+}
+
+nav ul {
+   list-style: none; /* Removes default list styling */
+   padding: 0;
+   margin: 0;
+   display: flex; /* Aligns the list items in a row */
+   align-items: center; /* Vertically centers the list items */
+}
+
+nav ul li {
+   margin-right: 20px; /* Spacing between list items */
+}
+
+nav a {
+   color: white; /* White text color for links */
+   text-decoration: none; /* Removes underline from links */
+   font-size: 1.1em; /* Slightly larger font size */
+}
+
+nav a:hover {
+   text-decoration: underline; /* Underline on hover for better user interaction */
+}
+
+.navbar-item {
+   padding: 5px 10px; /* Padding for clickable area */
+   transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.navbar-item:hover {
+   background-color: #333; /* Dark gray background on hover */
+}
+.navbar-item:hover {
+   background-color: #003399; /* Slightly darker blue on hover */
+}
+.navbar-item.logout-button {
+   background: none;
+   border: none;
+   color: white; /* Adjust color as needed */
+   cursor: pointer;
+   padding: 10px;
+   font-size: 16px; /* Adjust font size as needed */
+}

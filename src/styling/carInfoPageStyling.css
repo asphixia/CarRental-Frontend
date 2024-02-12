@@ -1,0 +1,36 @@
+
+.full-width-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    width: fit-content; 
+  }
+  
+  .button-style {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-style:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .button-style:last-child {
+    margin-right: 0; /* Remove right margin from the last button */
+  }

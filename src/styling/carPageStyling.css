@@ -1,0 +1,54 @@
+.rental-car-list-page {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+   }
+   
+   .rental-car-list-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+   }
+   
+   .rental-car-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 16px;
+   }
+   
+   .rental-car-card {
+    background-color: #f2f2f2;
+    padding: 16px;
+    border-radius: 4px;
+    text-align: center;
+   }
+   
+   .rental-car-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+   }
+   
+   .rental-car-card h2 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+   }
+   
+   .rental-car-card p {
+    margin: 0;
+   }
+   .rental-car-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+   }
+   

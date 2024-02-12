@@ -1,0 +1,45 @@
+/* confirmOrderStyle.css */
+
+.confirm-order-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .confirm-order-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .confirm-order-container img {
+    max-width: 100px; /* Small size */
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .confirm-order-container p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .confirm-order-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .confirm-order-link:hover {
+    background-color: #0056b3;
+  }
+  

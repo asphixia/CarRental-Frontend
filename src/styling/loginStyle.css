@@ -1,0 +1,63 @@
+/* loginStyle.css */
+
+/* Overall form styling */
+form {
+    max-width: 360px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style for each input field */
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  /* Input focus effect */
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 3px #aed0ea;
+  }
+  
+  /* Submit button styling */
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    form {
+      margin: 20px;
+      width: calc(100% - 40px);
+    }
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
